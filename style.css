@@ -12,6 +12,17 @@
     width: 150px;
     height: 150px;
 }
+#hero h1 {
+  font-size: calc(1.5rem + 1vw); /* Dynamic scaling with viewport width */
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  #hero h1 {
+    font-size: 1.5rem; /* Smaller size for extra-small screens */
+  }
+}
 #main{
     background-image:url("https://www.state.gov/wp-content/uploads/2020/11/shutterstock_186964970-scaled.jpg") ;
     width: 100%;
